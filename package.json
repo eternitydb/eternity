@@ -1,0 +1,25 @@
+{
+  "name": "eternity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/eternityd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternitydb/eternity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eternitydb/eternity/issues"
+  },
+  "homepage": "https://github.com/eternitydb/eternity#readme",
+  "bin": {
+    "eternityd": "./bin/eternityd.js"
+  },
+  "dependencies": {
+    "forever": "^4.0.1"
+  }
+}
